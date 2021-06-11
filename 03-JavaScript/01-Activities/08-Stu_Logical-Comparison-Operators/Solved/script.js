@@ -1,14 +1,14 @@
-var a = '50';
+var a = "50";
 var b = 50;
 var c = 100;
 var d = c % b;
 var e = c / 2;
 
 // Evaluates to true
-var expression1 = b === e;
+var expression1 = (b === e);
 
 // Evaluates to false
-var expression2 = e < d;
+var expression2 = (e < d);
 
 // Use comparison operators so all expressions below log to the console as true
 // Strict equality (===) returns false; Equality returns true (==)
@@ -30,5 +30,7 @@ console.log(expression1 || expression2);
 //Use ! and && to return true
 console.log(expression1 && !expression2);
 
-// Remove (!) from expression1 so one is true
-console.log(expression1 || expression2);
+
+// Remove (!) from expression1 so one is true 
+console.log( expression1 || expression2);
+  
