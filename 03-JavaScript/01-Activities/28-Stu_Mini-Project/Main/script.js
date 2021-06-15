@@ -14,7 +14,7 @@ var playGame = function() {
 		return;
 	}
 
-	if (!(userChoice in options)) {
+	if (!options.includes(userChoice)) {
 		window.alert('You need to enter R, P, or S ya dingus.');
 		return;
 	}
